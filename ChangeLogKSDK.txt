@@ -1,0 +1,8 @@
+/*!
+@page middleware_log Middleware Change Log
+
+@section audio-voice-components for MCUXpresso SDK
+  The currently supported version is 1.0.0
+  - 1.0.0
+    - Initial version of components
+*/

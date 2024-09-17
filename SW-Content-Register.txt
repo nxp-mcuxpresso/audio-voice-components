@@ -1,0 +1,18 @@
+NXP Software Content Register
+
+Package: audio-voice-components
+Version: 1.0.0 
+Outgoing LA_OPT_Online_Code_Hosting 
+License File: LICENSE.txt
+Type of Content: source code & header files, libraries
+Description and Comments: Components for Maestro MCU Audio Framework
+			  Libraries: AAC, MP3, WAV, SSRC, ASRC
+Release Location: https://github.com/nxp-mcuxpresso/audio-voice-components 
+Origin: 
+        
+        NXP (Proprietary)
+        NXP (BSD 3-clause)
+        Flac (BSD 3-clause) - https://github.com/xiph/flac
+        Ogg (BSD 3-clause) - https://github.com/xiph/ogg
+        Opus (BSD 3-clause) - https://github.com/xiph/opus
+        Opusfile (BSD 3-clause) - https://github.com/xiph/opusfile

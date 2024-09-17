@@ -1,0 +1,3 @@
+config MCUX_COMPONENT_middleware.audio_voice.components.ogg
+    bool "Ogg"
+    default n

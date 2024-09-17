@@ -1,0 +1,4 @@
+name: nxp_audio_voice_components
+build:
+  cmake: ./zephyr/
+  kconfig: ./zephyr/Kconfig

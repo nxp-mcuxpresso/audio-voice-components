@@ -1,0 +1,6 @@
+menu "Decoders"
+    osource "middleware/audio_voice/components/decoders/aac/Kconfig"
+    osource "middleware/audio_voice/components/decoders/flac/Kconfig"
+    osource "middleware/audio_voice/components/decoders/mp3/Kconfig"
+    osource "middleware/audio_voice/components/decoders/wav/Kconfig"
+endmenu

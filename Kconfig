@@ -1,0 +1,12 @@
+menu "Components"
+    osource "middleware/audio_voice/components/decoders/Kconfig"
+    osource "middleware/audio_voice/components/encoders/Kconfig"
+    osource "middleware/audio_voice/components/ogg/Kconfig"
+    osource "middleware/audio_voice/components/opus/Kconfig"
+    osource "middleware/audio_voice/components/opusfile/Kconfig"
+    osource "middleware/audio_voice/components/asrc/Kconfig"
+    osource "middleware/audio_voice/components/ssrc/Kconfig"
+    osource "middleware/audio_voice/components/vit/Kconfig"
+    osource "middleware/audio_voice/components/voice_seeker/Kconfig"
+    osource "middleware/audio_voice/components/voice_spot/Kconfig"
+endmenu

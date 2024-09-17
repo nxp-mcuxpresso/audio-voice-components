@@ -1,0 +1,97 @@
+# Copyright 2024 NXP
+# SPDX-License-Identifier: BSD-3-Clause
+
+menu "NXP audio voice libraries"
+
+    config NXP_AUDIO_VOICE_COMPONENTS_ALL
+        bool "Enables all"
+        default n
+        select NXP_AUDIO_VOICE_COMPONENTS_SSRC
+        select NXP_AUDIO_VOICE_COMPONENTS_ASRC
+        select NXP_AUDIO_VOICE_COMPONENTS_OPUS
+        select NXP_AUDIO_VOICE_COMPONENTS_OPUS_OGG
+        select NXP_AUDIO_VOICE_COMPONENTS_OPUSFILE
+        select NXP_AUDIO_VOICE_COMPONENTS_DECODER_AAC
+        select NXP_AUDIO_VOICE_COMPONENTS_DECODER_FLAC
+        select NXP_AUDIO_VOICE_COMPONENTS_DECODER_MP3
+        select NXP_AUDIO_VOICE_COMPONENTS_DECODER_WAV
+
+    config NXP_AUDIO_VOICE_COMPONENTS_DECODERS_ALL
+        bool "Enables all decoders"
+        default n
+        select NXP_AUDIO_VOICE_COMPONENTS_DECODER_AAC
+        select NXP_AUDIO_VOICE_COMPONENTS_DECODER_FLAC
+        select NXP_AUDIO_VOICE_COMPONENTS_DECODER_MP3
+        select NXP_AUDIO_VOICE_COMPONENTS_DECODER_WAV
+        select NXP_AUDIO_VOICE_COMPONENTS_OPUS
+        select NXP_AUDIO_VOICE_COMPONENTS_OPUS_OGG
+        select NXP_AUDIO_VOICE_COMPONENTS_OPUSFILE
+
+    config NXP_AUDIO_VOICE_COMPONENTS_ENCODERS_ALL
+        bool "Enables all encoders"
+        default n
+        select NXP_AUDIO_VOICE_COMPONENTS_OPUS
+        select NXP_AUDIO_VOICE_COMPONENTS_OPUS_OGG
+        select NXP_AUDIO_VOICE_COMPONENTS_OPUSFILE
+
+    config NXP_AUDIO_VOICE_COMPONENTS_ENCODERS_DECODERS_ALL
+        bool "Enables all both Encoder&Decoder libs"
+        default n
+        select NXP_AUDIO_VOICE_COMPONENTS_OPUS
+        select NXP_AUDIO_VOICE_COMPONENTS_OPUS_OGG
+        select NXP_AUDIO_VOICE_COMPONENTS_OPUSFILE
+
+    config NXP_AUDIO_VOICE_COMPONENTS_LIBRARIES_ALL
+        bool "Enables all libraries"
+        select NXP_AUDIO_VOICE_COMPONENTS_SSRC
+        select NXP_AUDIO_VOICE_COMPONENTS_ASRC
+
+    config NXP_AUDIO_VOICE_COMPONENTS_TARGET_DEBUG
+        bool "Adds libraries with debug symbols enabled"
+        default n
+
+    menu "Decoders"
+        config NXP_AUDIO_VOICE_COMPONENTS_DECODER_AAC
+            bool "Enables AAC decoder"
+            default n
+
+        config NXP_AUDIO_VOICE_COMPONENTS_DECODER_FLAC
+            bool "Enables FLAC decoder"
+            default n
+
+        config NXP_AUDIO_VOICE_COMPONENTS_DECODER_MP3
+            bool "Enables MP3 decoder"
+            default n
+
+        config NXP_AUDIO_VOICE_COMPONENTS_DECODER_WAV
+            bool "Enables WAV decoder"
+            default n
+    endmenu # "Decoders"
+
+    menu "Encoders"
+    endmenu
+
+    menu "Both Encoder&Decoder libs"
+        config NXP_AUDIO_VOICE_COMPONENTS_OPUS
+            bool "Enables OPUS encoder/decoder"
+            default n
+
+        config NXP_AUDIO_VOICE_COMPONENTS_OPUS_OGG
+            bool "Enables OPUS OGG frame"
+            default n
+
+        config NXP_AUDIO_VOICE_COMPONENTS_OPUSFILE
+            bool "Enables Opusfile"
+            default n
+    endmenu
+
+    menu "Libraries"
+        config NXP_AUDIO_VOICE_COMPONENTS_SSRC
+            bool "Enables SSRC library"
+            default n
+
+        config NXP_AUDIO_VOICE_COMPONENTS_ASRC
+            bool "Enables ASRC library"
+            default n
+    endmenu
+endmenu # NXP audio voice libraries
