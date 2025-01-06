@@ -1,4 +1,4 @@
-# MP3 decoder 
+# MP3 decoder
 
 ## MP3 decoder features
 * MP3 decoder supports mpeg-1, mpeg-2, mpeg-2.5.

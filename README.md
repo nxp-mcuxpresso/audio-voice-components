@@ -11,7 +11,7 @@ This repository acts as Zephyr module, to be able to use these libraries in Zeph
 * [asrc](#asynchronous-sample-rate-converter) - Libraries and public files of Asynchronous Sample Rate Converter, version 1.0.0
 * [ssrc](#synchronous-sample-rate-converter) - Libraries and public files of Synchronous Sample Rate Converter, version 1.0.0
 * [opus](#opus) - Source files of Opus decoder and encoder, version 1.3.1
-* [opusfile](#opusfile) - Source files for Opus streams in the Ogg container, version 0.12
+* [opusfile](#opus-file) - Source files for Opus streams in the Ogg container, version 0.12
 * [ogg](#ogg-container) - Source files of Ogg container, version 1.3.5
 * [decoders](#decoders) - Libraries and public files of following audio decoders:
     * [aac](#aac) -  AAC decoder, version 1.0.0
@@ -133,7 +133,7 @@ More details about ASRC are available in the User Guide, which is located in `as
 The Synchronous Sample Rate Converter (SSRC) software module converts an audio signal
 (mono or stereo) with a certain sampling frequency to an audio signal with another sampling
 frequency.
-More details about SSRC are available in the User Guide, which is located in `ssrc\doc\`.
+More details about SSRC are available in the [User Guide](ssrc/doc/ugindex.md).
 
 ## Opus
 For Opus decoder and encoder documentation please see following link: [opus](https://opus-codec.org/docs/opus_api-1.3.1/).
@@ -150,14 +150,14 @@ For Ogg container documentation please see following link: [ogg](https://xiph.or
 ## Decoders
 Each decoder contains libraries for supported processor and toolchain (see table above), corresponding Public API file and documentation folder.
 ### AAC
-For decoder features please see [aacdec](decoders/aac/doc/aacdec.md), for API Usage please see [aacd_ud](decoders/aac/doc/aacd_ug.md).
+For decoder features please see [aacdec](decoders/aac/doc/aacdec.md), for API Usage please see [aacd_ug](decoders/aac/doc/aacd_ug.md).
 
 ### FLAC
-For decoder features please see [flacdec](decoders/flac/doc/flacdec.md), for API Usage please see [flacd_ud](decoders/flac/doc/flacd_ug.md).
+For decoder features please see [flacdec](decoders/flac/doc/flacdec.md), for API Usage please see [flacd_ug](decoders/flac/doc/flacd_ug.md).
 ### MP3
-For decoder features please see [mp3dec](decoders/mp3/doc/mp3dec.md), for API Usage please see [mp3d_ud](decoders/mp3/doc/mp3d_ug.md).
+For decoder features please see [mp3dec](decoders/mp3/doc/mp3dec.md), for API Usage please see [mp3d_ug](decoders/mp3/doc/mp3d_ug.md).
 ### WAV
-For decoder features please see [wavdec](decoders/wav/doc/wavdec.md), for API Usage please see [wavd_ud](decoders/wav/doc/wavd_ug.md).
+For decoder features please see [wavdec](decoders/wav/doc/wavdec.md), for API Usage please see [wavd_ug](decoders/wav/doc/wavd_ug.md).
 
 ## Zephyr build
 
