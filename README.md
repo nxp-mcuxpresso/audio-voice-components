@@ -1,13 +1,28 @@
-Audio Voice Components
-================
+# MCUXpresso SDK : audio-voice-components
 
-# Overview
+## Overview
+This repository is for MCUXpresso SDK audio-voice-components middleware delivery and it contains the components officially provided in NXP MCUXpresso SDK. This repository is part of the MCUXpresso SDK overall delivery which is composed of several sub-repositories/projects. Navigate to the top/parent repository (mcuxsdk-manifests) for the complete delivery of MCUXpresso SDK.
+
+## Documentation
+Overall details can be reviewed here: [MCUXpresso SDK Online Documentation](https://mcuxpresso.nxp.com/mcuxsdk/latest/html/introduction/README.html)
+
+Visit [Audio Voice Components - Documentation](https://mcuxpresso.nxp.com/mcuxsdk/latest/html/middleware/audio_voice/components/index.html) to review details on the contents in this sub-repo.
+
+## Setup
+Instructions on how to install the MCUXpresso SDK provided from GitHub via west manifest [Getting Started with SDK - Detailed Installation Instructions](https://mcuxpresso.nxp.com/mcuxsdk/latest/html/gsd/installation.html#installation)
+
+## Contribution
+Contributions are not currently accepted. Guidelines to contribute will be posted in the future.
+
+---------------------------------
+
+## Overview
 
 This repository allows users to add additional functionality to the [Maestro Audio framework](https://github.com/nxp-mcuxpresso/maestro). This structure is designed for integration with Maestro and is not intended for standalone use. For information on the use of individual components, please refer to the Maestro [programmer's guide](https://github.com/nxp-mcuxpresso/maestro/blob/main/doxygen/ProgrammersGuide.md).
 
 This repository acts as Zephyr module, to be able to use these libraries in Zephyr build system.
 
-# Content
+## Content
 * [asrc](#asynchronous-sample-rate-converter) - Libraries and public files of Asynchronous Sample Rate Converter, version 1.0.0
 * [ssrc](#synchronous-sample-rate-converter) - Libraries and public files of Synchronous Sample Rate Converter, version 1.0.0
 * [opus](#opus) - Source files of Opus decoder and encoder, version 1.3.1
@@ -22,15 +37,6 @@ This repository acts as Zephyr module, to be able to use these libraries in Zeph
 
 Following table contains information about libraries and source files availability:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:12px;
-  overflow:hidden;padding:3px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:12px;
-  font-weight:normal;overflow:hidden;padding:3px 5px;word-break:normal;}
-.tg .tg-0lax{background-color:#ffffff;color:#000000;text-align:left;vertical-align:top}
-.tg .tg-1lax{background-color:#374F7F;color:#ffffff;text-align:left;vertical-align:center}
-</style>
 <table class="tg"><thead>
   <tr>
     <th class="tg-1lax" rowspan="2"></th>
