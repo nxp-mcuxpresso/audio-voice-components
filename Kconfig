@@ -7,6 +7,5 @@ menu "Components"
     osource "middleware/audio_voice/components/asrc/Kconfig"
     osource "middleware/audio_voice/components/ssrc/Kconfig"
     osource "middleware/audio_voice/components/vit/Kconfig"
-    osource "middleware/audio_voice/components/voice_seeker/Kconfig"
     osource "middleware/audio_voice/components/voice_spot/Kconfig"
 endmenu

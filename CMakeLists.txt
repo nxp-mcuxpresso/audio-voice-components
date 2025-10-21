@@ -6,5 +6,4 @@ mcux_add_cmakelists(${SdkRootDirPath}/middleware/audio_voice/components/opusfile
 mcux_add_cmakelists(${SdkRootDirPath}/middleware/audio_voice/components/asrc OPTIONAL)
 mcux_add_cmakelists(${SdkRootDirPath}/middleware/audio_voice/components/ssrc OPTIONAL)
 mcux_add_cmakelists(${SdkRootDirPath}/middleware/audio_voice/components/vit OPTIONAL)
-mcux_add_cmakelists(${SdkRootDirPath}/middleware/audio_voice/components/voice_seeker OPTIONAL)
 mcux_add_cmakelists(${SdkRootDirPath}/middleware/audio_voice/components/voice_spot OPTIONAL)
