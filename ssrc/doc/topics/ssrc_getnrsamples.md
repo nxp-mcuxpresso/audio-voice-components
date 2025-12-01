@@ -53,5 +53,5 @@ This function retrieves the number of samples or sample pairs for stereo used as
 |**44100**|441<br/>80|4<br/>1|147<br/>40|441<br/>160|2<br/>1|147<br/>80|441<br/>320|1<br/>1|147<br/>160|
 |**48000**|6<br/>1|640<br/>147|4<br/>1|3<br/>1|320<br/>147|2<br/>1|3<br/>2|160<br/>147|1<br/>1|
 
-**Parent topic:**[Functions](../topics/functions.md)
+**Parent topic:**[Functions](#functions)
 

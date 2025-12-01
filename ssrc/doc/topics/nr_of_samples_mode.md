@@ -15,5 +15,5 @@ typedef enum
 
 The `SSRC_NR_SAMPLES_MODE_en` enumerated type specifies the two different modes that can be used to retrieve the number of samples using the `SSRC_GetNrSamples` function.
 
-**Parent topic:**[Type definitions](../topics/type_definitions.md)
+**Parent topic:**[Type definitions](#type-definitions)
 

@@ -1,6 +1,6 @@
 # Additional user information
 
-This section provides information on the [Attenuation of the signal](attenuation_of_the_signal.md) and [Notes on integration](notes_on_integration.md).
+This section provides information on the signal attenuation and notes on integration.
 
 
 ```{include} ../topics/attenuation_of_the_signal.md

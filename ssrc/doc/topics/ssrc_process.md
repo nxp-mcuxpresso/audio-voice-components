@@ -28,5 +28,5 @@ The sample format used for the input and output buffers is 16-bit little-endian.
 |`SSRC_OK`|When the function call succeeds.|
 |`SSRC_NULL_POINTER`|When one of `pSSRC_Instance`, `pSSRC_AudioIn`, or `pSSRC_AudioOut` is `NULL`.|
 
-**Parent topic:**[Functions](../topics/functions.md)
+**Parent topic:**[Functions](#functions)
 

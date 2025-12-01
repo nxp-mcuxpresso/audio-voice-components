@@ -6,5 +6,5 @@ The application must allocate both the instance and the scratch memory. The SSRC
 
 There is a data type available for both the instance and the scratch memory, namely `SSRC_Instance_t` and `SSRC_Scratch_t`. The instance type is defined as structures of the correct size in the SSRC header file. Both the instance and the scratch memory must be 4 bytes aligned.
 
-**Parent topic:**[Type definitions](../topics/type_definitions.md)
+**Parent topic:**[Type definitions](#type-definitions)
 

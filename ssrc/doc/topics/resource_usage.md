@@ -1,6 +1,6 @@
 # Resource usage
 
-This section lists the [memory](memory_requirements.md) and [processing](processing_requirements.md) requirements for the SSRC module.
+This section lists the [memory](#memory-requirements) and [processing](#processing-requirements) requirements for the SSRC module.
 
 
 ```{include} ../topics/memory_requirements.md
@@ -11,5 +11,5 @@ This section lists the [memory](memory_requirements.md) and [processing](process
 :heading-offset: 2
 ```
 
-**Parent topic:**[Introduction](../topics/introduction.md)
+**Parent topic:**[Introduction](#introduction)
 

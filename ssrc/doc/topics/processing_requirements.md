@@ -17,5 +17,5 @@ The following tables give the MIPS performance of the SSRC module. The cycles ar
 :heading-offset: 3
 ```
 
-**Parent topic:**[Resource usage](../topics/resource_usage.md)
+**Parent topic:**[Resource usage](#resource-usage)
 

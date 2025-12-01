@@ -2,7 +2,9 @@
 
 The Total Harmonic Distortion Plus Noise \(THD+N\) of the converted signals is below - 76 \(high-quality mode\) and - 85 \(very high-quality mode\) for signal frequencies below 0.45\*FsLOW \(=90 % of the Nyquist range of the lowest sample clock\)
 
-[Table 1](#high) and [Table 2](#v9high) give the THD+N performance \(FsIN on the vertical axis and FsOUT on the horizontal axis\) for the two supported quality levels. The numbers in the tables give the worst-case THD+N measured for signal frequencies below 0.45\*FsLOW. For each conversion ratio, 100 THD+N measurements were executed with signal frequencies linearly spread over the complete Nyquist range.
+[Table 1](#table-1-high-quality-mode) and [Table 2](#table-2-very-high-quality-mode) give the THD+N performance \(FsIN on the vertical axis and FsOUT on the horizontal axis\) for the two supported quality levels. The numbers in the tables give the worst-case THD+N measured for signal frequencies below 0.45\*FsLOW. For each conversion ratio, 100 THD+N measurements were executed with signal frequencies linearly spread over the complete Nyquist range.
+
+## Table 1: High-Quality Mode
 
 |**FsIN/ FsOUT**|**8000**|**11025**|**12000**|**16000**|**22050**|**24000**|**32000**|**44100**|**48000**|
 |:---------------:|:--------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
@@ -16,6 +18,8 @@ The Total Harmonic Distortion Plus Noise \(THD+N\) of the converted signals is b
 |**44100**|-79.1|-81.2|-76.7|-77.8|-82|-78.2|-79.1|-93|-79.7|
 |**48000**|-78.7|-78.8|-81.1|-77.6|-77.9|-81.8|-79.1|-79.3|-93|
 
+## Table 2: Very High-Quality Mode
+
 |**FsIN/ FsOUT**|**8000**|**11025**|**12000**|**16000**|**22050**|**24000**|**32000**|**44100**|**48000**|
 |:---------------:|:--------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |**8000**|-92.1|-86.6|-88.6|-91.5|-86.4|-89|-89.7|-89.3|-89.3|
@@ -28,5 +32,5 @@ The Total Harmonic Distortion Plus Noise \(THD+N\) of the converted signals is b
 |**44100**|-93.7|-93.6|-91.5|-90.6|-93.8|-89.8|-89.3|-93|-86.5|
 |**48000**|-94.1|-92.6|-94|-94|-90.1|-93.7|-91.8|-88.4|-93|
 
-**Parent topic:**[Introduction](../topics/introduction.md)
+**Parent topic:**[Introduction](#introduction)
 

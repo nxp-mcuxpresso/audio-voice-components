@@ -48,5 +48,5 @@
 |**44100**|8.43|2.72|8.18|8.64|3.01|9.59|10.47|0.35|10.1|
 |**48000**|9.26|9.66|2.97|9.49|9.97|3.27|11.39|12.59|0.38|
 
-**Parent topic:**[Processing requirements](../topics/processing_requirements.md)
+**Parent topic:**[Processing requirements](#processing-requirements)
 

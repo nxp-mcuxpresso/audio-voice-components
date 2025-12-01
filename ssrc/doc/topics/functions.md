@@ -27,5 +27,5 @@ This section lists all the API functions of the SSRC module and explains their p
 :heading-offset: 2
 ```
 
-**Parent topic:**[Application programmers interface \(API\)](../topics/application_programmers_interface_api.md)
+**Parent topic:**[Application programmers interface \(API\)](#application-programmers-interface-api)
 

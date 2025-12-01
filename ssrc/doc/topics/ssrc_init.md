@@ -34,5 +34,5 @@ The `SSRC_Init` function initializes an instance of the SSRC module.
 |`SSRC_WRONG_NR_SAMPLES`|When the number of samples on the input or on the output are incorrect.|
 |`SSRC_ALIGNMENT_ERROR`|When the instance memory or the scratch memory is not 4 bytes aligned.|
 
-**Parent topic:**[Functions](../topics/functions.md)
+**Parent topic:**[Functions](#functions)
 

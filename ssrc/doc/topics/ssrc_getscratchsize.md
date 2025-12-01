@@ -29,5 +29,5 @@ This function retrieves the scratch size for a given conversion ratio and for gi
 |`SSRC_NULL_POINTER`|When `pSSRC_Params` or `pScratchSize` is a `NULL` pointer.|
 |`SSRC_WRONG_NR_SAMPLES`|When the number of samples on the input or on the output are incorrect.|
 
-**Parent topic:**[Functions](../topics/functions.md)
+**Parent topic:**[Functions](#functions)
 

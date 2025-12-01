@@ -21,5 +21,5 @@ typedef enum
 
 Used to pass the input and the output sample rate to the SSRC.
 
-**Parent topic:**[Type definitions](../topics/type_definitions.md)
+**Parent topic:**[Type definitions](#type-definitions)
 

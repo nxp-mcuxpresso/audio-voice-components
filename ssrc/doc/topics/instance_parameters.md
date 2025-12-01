@@ -18,5 +18,5 @@ typedef struct
 
 Used to pass the SSRC instance parameters to the SSRC module. It is a structure that contains the members for input sample rate, output sample rate, the number of channels, and the number of samples on the input and output audio stream.
 
-**Parent topic:**[Type definitions](../topics/type_definitions.md)
+**Parent topic:**[Type definitions](#type-definitions)
 

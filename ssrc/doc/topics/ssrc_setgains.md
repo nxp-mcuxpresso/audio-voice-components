@@ -30,5 +30,5 @@ This function sets headroom gain and the post gain of the SSRC. The `SSRC_SetGai
 |`SSRC_INVALID_MODE`|Wrong value used for the `bHeadroomGainEnabled` or the `OutputGainEnabled` parameters.|
 |`SSRC_INVALID_VALUE`|When `OutputGain` is out of the range \[0;32767\].|
 
-**Parent topic:**[Functions](../topics/functions.md)
+**Parent topic:**[Functions](#functions)
 

@@ -23,5 +23,5 @@ typedef enum
 
 The `SSRC_ReturnStatus_en` enumerated type specifies the different error codes returned by the API functions. For the exact meaning, see the individual function descriptions.
 
-**Parent topic:**[Type definitions](../topics/type_definitions.md)
+**Parent topic:**[Type definitions](#type-definitions)
 

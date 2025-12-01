@@ -35,5 +35,5 @@
 |**44100**|28.11|11.57|38.05|40.03|11.71|55.43|59.4|0.72|63.62|
 |**48000**|30.19|31.71|12.59|42.9|45.96|12.74|63.36|69.42|0.78|
 
-**Parent topic:**[Processing requirements](../topics/processing_requirements.md)
+**Parent topic:**[Processing requirements](#processing-requirements)
 

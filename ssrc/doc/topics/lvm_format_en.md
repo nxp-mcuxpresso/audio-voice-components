@@ -15,7 +15,7 @@ typedef enum
 
 The `LVM_Format_en` enumerated type is used to set the value of the SSRC data format.
 
-The SSRC supports input data in two formats Mono and Stereo. For an input buffer of `NumSamples = N` \(meaning `N` sample pairs for Stereo and MonoInStereo or N samples for Mono\), the format of data in the buffer is as listed in [Table 1](#table_rrd_r1h_rxb):
+The SSRC supports input data in two formats Mono and Stereo. For an input buffer of `NumSamples = N` \(meaning `N` sample pairs for Stereo and MonoInStereo or N samples for Mono\), the format of data in the buffer is as listed in the table below:
 
 |**Sample Number**|**Stereo**|**MonoInStereo**|**Mono**|
 |:---------------:|:--------:|:--------------:|:------:|
@@ -36,5 +36,5 @@ The SSRC supports input data in two formats Mono and Stereo. For an input buffer
 |“|“|“|Not Used|
 |2\*N-2|Left\(N-1\)|Mono\(N-1\)|Not Used|
 
-**Parent topic:**[Type definitions](../topics/type_definitions.md)
+**Parent topic:**[Type definitions](#type-definitions)
 

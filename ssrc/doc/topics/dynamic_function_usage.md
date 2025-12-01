@@ -23,5 +23,5 @@ This chapter explains how and when the SSRC functions are or can be used.
 :heading-offset: 2
 ```
 
-**Parent topic:**[Application programmers interface \(API\)](../topics/application_programmers_interface_api.md)
+**Parent topic:**[Application programmers interface \(API\)](#application-programmers-interface-api)
 
