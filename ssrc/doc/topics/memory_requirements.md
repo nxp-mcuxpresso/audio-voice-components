@@ -9,7 +9,7 @@ The following are the memory requirements for the SSRC module.
 |Program memory for Arm9E and XScale|14k|
 |Program memory for Arm7|15k|
 
-**Parent topic:**[Resource usage](#resource-usage)
+**Parent topic:**[Resource usage](resource_usage.md)
 
 [^1]: Worst case number for I/O buffers of 40 ms. If smaller I/O buffers are used, this number is smaller. The required scratch memory is roughly equal to 2 times the buffer size on the highest sample rate.
 

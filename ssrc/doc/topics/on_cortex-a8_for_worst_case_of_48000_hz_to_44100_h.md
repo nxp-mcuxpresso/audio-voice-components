@@ -7,5 +7,5 @@
 |Mono at Very High Quality|4.13|
 |Stereo at Very High Quality|6.52|
 
-**Parent topic:**[Processing requirements](#processing-requirements)
+**Parent topic:**[Processing requirements](processing_requirements.md)
 

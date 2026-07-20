@@ -36,5 +36,5 @@ The SSRC supports input data in two formats Mono and Stereo. For an input buffer
 |“|“|“|Not Used|
 |2\*N-2|Left\(N-1\)|Mono\(N-1\)|Not Used|
 
-**Parent topic:**[Type definitions](#type-definitions)
+**Parent topic:**[Type definitions](type_definitions.md)
 

@@ -2,5 +2,5 @@
 
 Call the `SSRC_Init` function.
 
-**Parent topic:**[Dynamic function usage](#dynamic-function-usage)
+**Parent topic:**[Dynamic function usage](dynamic_function_usage.md)
 

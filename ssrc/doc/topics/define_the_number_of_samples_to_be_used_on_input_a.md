@@ -2,5 +2,5 @@
 
 Call the function `SSRC_GetNrSamples`. Each integer multiple of the returned number of samples can be used.
 
-**Parent topic:**[Dynamic function usage](#dynamic-function-usage)
+**Parent topic:**[Dynamic function usage](dynamic_function_usage.md)
 

@@ -31,5 +31,5 @@ This section describes the type definitions of the SSRC module.
 :heading-offset: 2
 ```
 
-**Parent topic:**[Application programmers interface \(API\)](#application-programmers-interface-api)
+**Parent topic:**[Application programmers interface \(API\)](application_programmers_interface_api.md)
 
