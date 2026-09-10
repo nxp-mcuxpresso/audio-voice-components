@@ -2,7 +2,7 @@
 //! \addtogroup opusdec OPUS Decoder
 //! @{
 //
-// Copyright 2020,2022, 2024 NXP
+// Copyright 2020,2022,2024,2026 NXP
 //
 // SPDX-License-Identifier: BSD-3-Clause
 //
@@ -67,6 +67,13 @@ int32_t OggOPUSInit(int32_t *memory[], int32_t *pCallbackFn[], int32_t *pUserDat
     int32_t bitrate                         = 0;
     int32_t ret                             = 0;
 
+    /* Validate mandatory pointers before dereferencing them. */
+    if ((opus_cci == NULL) || (pCall == NULL) || (cci_dec == NULL) || (cci_dec->metadata == NULL) ||
+        (cci_dec->element == NULL))
+    {
+        return (int32_t)CODEC_INIT_ERROR;
+    }
+
     opus_cci->callbacks = *pCall;
     opus_cci->opus_file = NULL;
     opus_cci->cci_dec   = cci_dec;
@@ -120,9 +127,17 @@ cleanup:
 int32_t OggOPUSDecode(int32_t *memory[], int32_t *sampleProudced, int32_t *bufOut)
 {
     OpusDec_CCI_t *opus_cci = (OpusDec_CCI_t *)*memory;
-    OggOpusFile *of         = opus_cci->opus_file;
+    OggOpusFile *of         = NULL;
     int out_len             = 0;
     int32_t ret             = (int32_t)CODEC_SUCCESS;
+
+    /* Validate mandatory pointers before dereferencing them. */
+    if ((opus_cci == NULL) || (opus_cci->opus_file == NULL))
+    {
+        return (int32_t)CODEC_DECODE_ERROR;
+    }
+
+    of = opus_cci->opus_file;
 
     /* Read and decode Opus packet */
     out_len = op_read(of, opus_cci->output_buffer, OUTPUT_BUFFER_SIZE, NULL);
@@ -170,10 +185,19 @@ int32_t OggOPUSReset(int32_t *pMemory[])
 int32_t OggOPUSSeek(int32_t *pMemory[], int32_t seekOffset)
 {
     OpusDec_CCI_t *opus_cci = (OpusDec_CCI_t *)pMemory[0];
-    OggOpusFile *of         = opus_cci->opus_file;
+    OggOpusFile *of         = NULL;
     int32_t ret             = 0;
+
+    /* Validate mandatory pointers before dereferencing them. */
+    if ((opus_cci == NULL) || (opus_cci->opus_file == NULL))
+    {
+        return (int32_t)CODEC_DECODE_ERROR;
+    }
+
+    of = opus_cci->opus_file;
     /* A negative number means the number of bytes (raw seek) and a positive number the number of pcm samples (pcm seek)
      */
+
     if (seekOffset < 0)
     {
         ret = (int32_t)op_raw_seek(of, -(ogg_int64_t)seekOffset);
